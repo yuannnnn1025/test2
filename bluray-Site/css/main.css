@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hide
+{
+	overflow:hidden;
+}
+
+#inputName p
+{
+	margin-top:10px;
+	text-align:center;
+}
+.fill {
+	display: block;	
+}
+
+#name
+{
+	font-family:"Comic Sans MS";
+	font-size:34px;
+	color: #E1CB89;
+}
+
+#submit
+{
+	background-color:#E1CB89;
+	padding:20% 40%;
+	border:1px white solid;
+}
+
+#submit:hover
+{
+	background-color:#370A0F;
+	color:#E1CB89;
+}
+
+.movie{
+	height:700px;
+	padding-top:1%;
+	background-color: #000;
+ }
+ 
+ .screen
+ {
+	 background-color: #370A0F;
+	 padding:3%;
+ }
+ p
+ {
+	 color:white;
+ }
+ 
+.like:hover {
+	opacity:.5;
+}
+
+.heart
+{
+	display:none;
+    position:absolute;
+}
+.like:hover .heart {
+	display:block;
+	opacity:1;
+    position:absolute;
+	width:88%;
+}
+
+.chosenMovies
+{
+	width:10%;
+	margin-right:2%;
+}
+
+#viewed
+{
+	background-color:#000;
+	padding:3%;
+	margin-bottom:15px;
+}
+
+
